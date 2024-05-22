@@ -1,12 +1,13 @@
 {
-  "name": "my-backend",
+  "name": "pciklolgic_server_app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "8Pablo8 <pablollanamunoz@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8",
@@ -16,8 +17,10 @@
     "puppeteer": "^22.8.2",
     "sqlite3": "^5.1.7"
   },
-  "description": "",
+  "description": "Primer intento con las pautas de Martín Gesualdo",
   "devDependencies": {
+    "nodemon": "^3.1.0",
     "typescript": "^5.4.5"
-  }
+  },
+  "private": false
 }
